@@ -7,3 +7,20 @@
 
 # feel free to adjust n for debugging
 n = 100
+store=" "
+for i in range(n):
+    if (i % 3==0):
+        print(f"\nFizz : {i}")
+        store = store + (" Fizz ")
+    if (i % 5==0):
+        print(f"\nBuzz : {i}")
+        store = store + (" Buzz ")
+    if (i % 3==0) and (i % 5==0):
+        print(f"\nFizzBuzz : {i}")
+        store = store + (" FizzBuzz ")
+    else:
+        print(i)
+        store = store + " " +str( i )    
+    i +=1
+print(store)
+

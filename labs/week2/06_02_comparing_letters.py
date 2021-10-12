@@ -1,4 +1,5 @@
 # can you figure out the logic here?
+#phonetic
 
 ay = "a"
 bee = "b"
@@ -6,6 +7,8 @@ bee = "b"
 # which one is bigger?
 
 print(ay > bee)
+
+print(ord(ay),ord(bee))
 
 # why??
 

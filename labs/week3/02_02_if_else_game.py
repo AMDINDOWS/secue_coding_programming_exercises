@@ -11,7 +11,22 @@
 # Else, tell them they lost.
 
 import random
-name = input("Please Give Us your name(we wont share)" )
-
 random_number = random.randint(0, 10)
+
+name = input("Please Give Us your name(we wont share!!)" )
+name1=name.lower()
+print(f"\nYour name: {name1}")
+if (name1[0] == "a")or( name1[0] =="e") or (name1[0] =="i") or (name1[0] =="o") or (name1[0] =="u") :
+    print("\nViola vowel hmm interersing!")
+else:
+    print("\nFunny though no vowel u typed like a vowel guy")
+
+print("\nNow time to pick a number between 1 to 10:")
+number = int(input("\nPlease enter the number:"))
+
+if number == random_number:
+    print("YOU WON!!")
+else :
+    print("Lost sorry ")    
+
 

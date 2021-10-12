@@ -7,6 +7,9 @@
 # For example: You would never guess --> ouyay ouldway evernay uessgay
 
 
+from typing import final
+
+
 story = """
 
 At a great meeting of the Animals, who had gathered to elect a new ruler, the Monkey was asked to dance. This he did so well, with a thousand funny capers and grimaces, that the Animals were carried entirely off their feet with enthusiasm, and then and there, elected him their king.
@@ -22,3 +25,36 @@ The greedy Monkey followed the Fox to the trap. As soon as he saw the meat he gr
 Shortly after that, another election among the Animals was held.
 """
 
+story1 = (story[::-1])
+story3 = story1.replace(" ","ay ")
+print(story3)
+#story4 = " "
+
+#story4=" "
+#for i in range(0,len(story1)):
+   # for j in range(0,len(story4)):
+        #if story1[i]== story4[j]:
+            #word = story1[i]
+           # rep = story4[j]
+           # changeover = word.replace(" ","ay ")
+           # story1    
+
+#print(story1)            
+#you = "you"
+#you_pig = "x"
+""""
+current_word = ""
+final_pg_latin=""
+practice = "You would never guess"
+
+for letter in story:
+    
+    if letter == " " and current_word != "":
+        final_pg_latin+=current_word[1:] + current_word[0] + "ay " 
+        current_word=""
+    else:
+        current_word+=letter
+
+final_pg_latin+=current_word[1:] + current_word[0] + "ay "       
+print(final_pg_latin)
+"""

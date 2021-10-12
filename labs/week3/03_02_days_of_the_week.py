@@ -1,4 +1,4 @@
-#Exercise
+9#Exercise
 
 #Write a python program in which read an integer number less than 7 from user
 
@@ -13,3 +13,23 @@
 #If the input is 6 print "Saturday"
 
 #Use if-else statements
+
+number =int(input("\nPlease enter a number from 0 to 6 : "))
+
+if number >= 7 :
+    print("\nPlease read the intructions and try again!!")
+else:
+    if number == 0:
+        print("Sunday")
+    elif number == 1:
+        print("Monday")    
+    elif number == 2:
+        print("Tuesday")
+    elif number == 3:
+        print("Wednesday") 
+    elif number == 4:
+        print("Thursday")
+    elif number == 5:
+        print("Friday")
+    elif number == 6:
+        print("Saturday")                        

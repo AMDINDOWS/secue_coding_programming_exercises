@@ -5,9 +5,13 @@
 
 # example
 first_number = input("please enter a number: ")
-second_number = input("please enter another number!: ")
+second_number = input("\nplease enter another number: ")
 
-print(first_number)
+if first_number < second_number:
+    print(f"\nSecond Number is greater: {second_number}")
+else:
+    print(f"\nfirst number is greater: {first_number}")    
+
 
 ## note, what type is your first_number? Is it what you expected?
 ## look-up the input() documentation to find out what type it will create by default
