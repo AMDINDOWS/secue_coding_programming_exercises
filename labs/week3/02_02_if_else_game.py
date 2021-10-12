@@ -11,6 +11,7 @@
 # Else, tell them they lost.
 
 import random
+name = input("Please Give Us your name(we wont share)" )
 
 random_number = random.randint(0, 10)
 
