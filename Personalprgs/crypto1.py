@@ -1,3 +1,4 @@
+#letter frequency in crypto for english lang
 import string
 
 c_text= """ lrvmnir bpr sumvbwvr jx bpr lmiwv yjeryrkbi jx qmbm wi bpr xjvni mkd ymibrut jx
