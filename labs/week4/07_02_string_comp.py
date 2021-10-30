@@ -6,3 +6,7 @@
 # but try to do it using a list comprehension.
 
 word = "Amrita Vishwavidyapeetham"
+
+last=[i for i in word]
+
+print(last)
