@@ -37,3 +37,6 @@ famous_quotes = [
         "quote": "Standards are always out of date.  That’s what makes them standards.",
     },
 ]
+
+for i in famous_quotes:
+    print(f'The inspiring Quote : "{i["quote"]}" - {i["full_name"]}\n\n')
