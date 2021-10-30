@@ -17,4 +17,23 @@ hard_nested_list = [
 many_nests = ["a", ["bb", ["ccc", "ddd"], "ee", "ff"], "g", "h"]
 # should get back
 # ['a', 'bb', 'ccc', 'ddd', 'ee', 'ff', 'g', 'h']
+count =0
+flat_list=[]
+while True:
+    for item in hard_nested_list:
+        if isinstance(item,list) or isinstance(item,tuple):
+            flat_list.extend(item)
+        else:
+            flat_list.append(item)
+    print(flat_list)
+    hard_nested_list= flat_list
+    flat_list =[]
+    
+    for item in hard_nested_list:
+        if (isinstance(item,list) or isinstance(item,tuple)) :
+            break
+    else:
+        break    
+
+
 

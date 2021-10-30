@@ -10,3 +10,16 @@
 dict_1 = {"a": 1, "b": 2, "c": 3}
 dict_2 = {"a": 2, "c": 4, "d": 2}
 
+results = {}
+for item in dict_1:
+    print(item)
+    if item in dict_2:
+        results[item] = dict_1[item] + dict_2[item]
+    else:
+        results[item] = dict_1[item]
+
+for item in dict_2:
+    if item not in results:
+        results[item] = dict_2[item]
+  
+print(results)          

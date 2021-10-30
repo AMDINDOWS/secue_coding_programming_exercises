@@ -20,3 +20,19 @@ for i in range(list_length):
 
 # example input :[1,2,5,1,2]
 # example output :[(1,1), (2,2), (5,0)]
+randlist.sort()
+
+if len(randlist)%2 != 0:
+    randlist.append(0)
+print(randlist)
+
+final_list=[]
+len_ran= len(randlist)
+
+
+for i in range(0,len_ran,2):
+    print(randlist[i:i+2])
+    tup = tuple(randlist[i:i+2])
+    print(tup)
+
+    
