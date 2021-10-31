@@ -3,3 +3,9 @@
 # result = {1: 1, 2: 4, 3: 9, ... and so on}
 
 # use a for-loop
+
+dic1={}
+
+for i in range(1,11):
+    dic1[i]=i*i
+print(dic1)    
