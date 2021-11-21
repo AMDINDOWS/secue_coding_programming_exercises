@@ -34,6 +34,34 @@ print(z)
 
 input_B = {4:"5",43:"342",72:"7"}
 
-for i in input_B:
-    print("Key:" + i + "and Element:" + input_B[i])
+
+
+class Thor:
+
+    destination ="Asgard"
+
+    def teleport(self):
+        print("\n Lightning Teleport")
+
+    def get_location(self):
+        print(f"\n Thr location is : {self.destination}")
+
+#1st obj(class instance), define object 
+Mjonir=Thor()
+
+Septre=Thor()
+
+# value changing at object 
+Mjonir.destination="Earth"
+
+#class method calls, self para givrn but not req
+Mjonir.teleport()
+
+Mjonir.get_location()
+
+Septre.teleport()
+
+Septre.get_location()
+
+
 

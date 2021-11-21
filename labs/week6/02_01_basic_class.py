@@ -1,8 +1,23 @@
 # make the most simple class possible
 
 
-class SimpleClass:
-    pass
+class Mobile:
+    cellphone=0
+    def __init__(self,brand,value):
+
+        self.brand=brand #attribute
+        self.value=value
+        Mobile.cellphone+=1
+
+c1=Mobile("one plus", 47000) #instance
+
+c2=Mobile("Nokia", 10000)
+
+print(Mobile.cellphone)
+
+
+
+    
 
 
 # create an instance of your SimpleClass and print it out

@@ -98,7 +98,7 @@ def pass_check(password):
             elif i  in notspl :
                 return False        
         #print(flag)
-    if (flag>=5):
+    if (flag>=5): #you could use with and(union) condiotion with value of diff value is true the output true.
         return True                    
     else:
         return False
