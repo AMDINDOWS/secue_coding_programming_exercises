@@ -64,4 +64,6 @@ Septre.teleport()
 Septre.get_location()
 
 
+aa="5502622159812088949850305428800254892961651752960000000000"
+print(len(aa))
 

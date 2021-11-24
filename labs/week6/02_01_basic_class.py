@@ -14,7 +14,8 @@ c1=Mobile("one plus", 47000) #instance
 c2=Mobile("Nokia", 10000)
 
 print(Mobile.cellphone)
-
+aa="5502622159812088949850305428800254892961651752960000000000"
+print(len(aa))
 
 
     
