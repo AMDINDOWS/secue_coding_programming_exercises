@@ -15,4 +15,4 @@ for x,vowels in enumerate(a_long_word):
         print(x,vowels)
         sum = sum + x
         print(f"\nCurrent sum of vowels is : {sum}")
-    x +=1    
+        #x +=1    
