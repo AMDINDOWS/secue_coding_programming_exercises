@@ -34,7 +34,7 @@ print(c2.instname()) #printing instance
 
 
 class LessSimpleClass:
-    pass
+    
     risinginst=0
 
     def __init__(self,fname,lname):

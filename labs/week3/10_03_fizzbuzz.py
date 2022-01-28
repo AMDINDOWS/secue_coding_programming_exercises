@@ -21,6 +21,6 @@ for i in range(n):
     else:
         print(i)
         store = store + " " +str( i )    
-    i +=1
+    
 print(store)
 

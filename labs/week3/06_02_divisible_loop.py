@@ -3,4 +3,4 @@
 for i in range(1500,2701):
     if (i % 7 == 0) and (i % 5 == 0):
         print(f"the nos div by 7 and multiplier of are:{i}")
-    i +=1    
+       

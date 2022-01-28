@@ -5,5 +5,5 @@
 x=0
 for i in range(0,101):
     x= x + i
-    i += 1 
+    #i += 1 
 print(x)

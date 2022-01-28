@@ -7,5 +7,5 @@ q2 = "and"
 q3 = "blundering"
 q4 = "we learn."
 
-print("Sentence is : " f"{q1}" " " f"{q2}" " " f"{q3}" " ""a lot" " " f"{q4}" )
+print("Sentence is : " f"{q1}" " " f"{q2}" " " f"{q3}" " " "a lot" " " f"{q4}" )
 print(f"\nQUOTE : '{q1} {q2} {q3} a lot {q4}'")
