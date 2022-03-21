@@ -32,6 +32,6 @@ for num in range(0,101):
 
              print(num)
 
-a = num.count()
+#a = num.count()
 
-print(a)    
+#print(a)    
