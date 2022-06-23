@@ -45,7 +45,7 @@ class Chickens:
         Chickens.instchicken+=1
 
     def lay_egg(self):
-        if (Chickens.time_of_day=="NIGHT" and self.gender=="FEMALE"):
+        if (Chickens.time_of_day=="NIGHT" and self.gender=="FEMALE EGG"):
             self.lays_eggs=True
             Chickens.number_of_eggs_laid+=1
         else:
